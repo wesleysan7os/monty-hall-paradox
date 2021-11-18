@@ -10,7 +10,7 @@ export default function Home() {
     <div>
       <Reward />
       <div style={{ display: "flex" }}>
-        <Door door={door} />
+        <Door value={door} onChange={(newDoor) => setDoor(newDoor)} />
       </div>
     </div>
   );
